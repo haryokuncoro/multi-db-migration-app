@@ -1,4 +1,3 @@
-```markdown
 # Migration Runner
 
 A lightweight Java migration runner similar to Flyway. Supports both SQL and Java migrations with rollback and migration history tracking.
