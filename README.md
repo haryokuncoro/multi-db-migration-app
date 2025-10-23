@@ -1,5 +1,3 @@
-Here’s a simple **README.md** for your migration runner project with instructions on running it via Gradle and specifying profiles and commands:
-
 ```markdown
 # Migration Runner
 
@@ -92,11 +90,4 @@ Rollback last 2 migrations:
 ./gradlew run -Dspring.profiles.active=mysql --args='rollback 2'
 ```
 
-```
-
----
-
-If you want, I can also **add a Gradle `run` task snippet** in `build.gradle` that supports `--args` for profile and rollback directly, so the command is cleaner.  
-
-Do you want me to add that?
 ```
